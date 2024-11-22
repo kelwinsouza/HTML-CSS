@@ -1,0 +1,38 @@
+TAG- hr = faz uma linha horizontal de ponta a ponta --------------------------------C4A2
+
+TAG- <br> quebra a linha, não tem fechamento C5A1
+
+Aula Capítulo 6 Aula 3 – O tamanho das imagens importa para um site no GIMP EDITOR
+
+Capítulo 6 Aula 5 – Como mudar o favicon( ícone da aba do navegador) de um site.
+no google site=iconarchive ou favicon.io a TAG É link favicon
+
+TAG-<STRONG> É UM NEGRITO QUE DA PRA USAR (SEMANTICA)</STRONG> Capítulo 8 Aula 2 
+
+a TAG <ins> serve para sublinhar uma frase ou palavra </ins>(semântica) Capítulo 8 Aula 3
+
+TAG <abbr title           Estou estudando <abbr title="aqui coloca o que significa o HTML">HTML</abbr> E <abbr title="Aqui coloca o que significao CSS">CSS</abbr>. Estou adorando!</p> Capítulo 8 Aula 4 – Citações e Códigos
+
+o código <q> é aspas '' " </q> (semântica) Capítulo 8 Aula 4 – Citações e Códigos
+ 
+Capítulo 9 Aula 1 – Listas OL e UL-São listas com ordem .
+<OL> <li>acordar</li> </OL> forma números ou pontos21:24 30/09/2024
+
+<a href="https://www.youtube.com/cursoemvideo" target="_blank" rel="externos">
+a tag target: abre uma nova aba deixado teu site lá
+a tag href é para colocar um link no vscode
+a tag rel é para informar o buscar que existe SEO
+Capítulo 10 Aula 1  07/10/2024
+Capítulo 10 Aula 1 08/10/2024
+../ é para voltar a pasta no href no link
+ <a href="livro/meulivropdf.pdf" download="meulivropdf"type="application/pdf">Baixar o livro em PDF</a>
+<a href="livro/meulivrozip.zip" download="meulivrozip" type="aplication/zip">baixar o livro zip</a>
+Capítulo 11 Aula 2 ensina a mudar a imagem confrme a tela
+   <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png"type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Uma imagem flexível">
+    </picture>
+
+  <video width="500" controls poster="imagens/retrovsor-990x660.jpg">
+        <source  src="midia/meu video 01.mp4" type="video/mp4" 

@@ -1,0 +1,56 @@
+Capítulo 16 Aula 03 – Modelo de Caixas na prática (Pt.2)
+a div é o H1
+                                                                                                                                                  EXISTE: DISPLAY: INLINE-BLOCK , DA PRA MECHER COMO                                             
+                                                                                                                                                   SE FOSSE UM BLOCK
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        h1{
+            background-color: lightseagreen;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+
+SIMPLIFICADO - border: 10px solid blueviolet ( nessa ordem faz os 3 juntos)
+
+            padding-top: 10px;
+            padding-right: 11px;
+            padding-bottom: 12px;
+            padding-left: 13px;
+
+SIMPLIFICADO - Padding: top right bottom left 
+SIMPLIFICADO - padding: 10px 11px 12px 13px
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+SIMPLIFICADO - margin: 10px auto 40px auto;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+        }
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Paragrafos de box level, mas os<a href="#"> links são exemplos de caixa inline-level</a>. Vamos ver com tudo isso funciona</p>
+</body>
+</html>

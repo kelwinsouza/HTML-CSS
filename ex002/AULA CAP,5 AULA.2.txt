@@ -1,0 +1,3 @@
+TAG- <br> quebra a linha, não tem fechamento C5A1
+
+TAG- EMOJI &#x1f596; C5A2

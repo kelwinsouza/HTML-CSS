@@ -1,0 +1,18 @@
+fonte-size sempre usar o 16px ou 1em 16px=1em 32px=2em...
+
+   font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 1em ;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+----------------------------------------------------------------------------
+                           font-family: work Arial, Helvetica, sans-serif;------------
+                           font-weight: bolder;-------------
+                           font-size: 3em ;-----------
+                           font-style: italic;----------
+                                            SHORTHAND é uma linha pra tudo
+               font-style > font-weight > fonte-size > fonte-family (essa é a ordem)
+            --font: italic bolder 3em 'arial ' 'helvetica' 'sans-serif'-- (segue uma linha )
+---------------------------------------------------------------------------------------------------------------------------------
+              (Div:hover){ background-color: yellow;} a DIV vai ficar amarela quando passar o mause por cima dela (muito legal!)
