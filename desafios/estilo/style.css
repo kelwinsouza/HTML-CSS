@@ -51,19 +51,35 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.normal{
     background-color:white;
     color:black;
 }
 
 section.imagem {
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.233);
     color: white; 
 }
-section.imagem > p{
+section.imagem > p {
+    text-shadow: 1px 1px 0px black;
     padding: 4px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.055);
+}
+section#img01 {
+    background-image: url("/desafios/imagem/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url("/desafios/imagem/background002.jpg");
+    background-position: right center;
+    background-size: cover;
 }
 footer {
     background-color: black;
