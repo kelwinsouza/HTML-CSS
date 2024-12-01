@@ -10,6 +10,7 @@
         }
         table{
             width: 500px;
+            border-collapse: collapse;
         }
         td ,th{
             border: 1px solid black;
@@ -23,18 +24,48 @@
             background-color: gray;
             color: white;
         }
+      
+        
         .num{
             text-align: right;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray
+        }
+        /*tbody > tr:nth-child(2n){
+            background-color: aquamarine;
+        }*/
+        tbody > tr:nth-child(odd){ /*impar*/
+            background-color: #4B3621;
+        }
+        tbody > tr:nth-child(even){ /*par*/ 
+            background: linear-gradient(to right, #009739, #FFCC29, #002776);
+        }
+        
 
     </style>
 </head>
 <body>
+    <!-- :nth-child (odd)= impar (even)=par
+     NO CSS A TAG :nth-child (2n) É EFEITO ZEBRADO NA TABELA.   
+         ANATOMIA PARA TABELAS GRANDES TABLE
+        CAPTION
+            NÃO VAI TR NEM TD
+        THEAD
+             TR, TD, TH
+        TBODY
+             TR, TD, TH
+        TFOOT
+             TR, TD, TH-->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -48,11 +79,15 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.229.915</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td class="num"><strong>84.352.783</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>95.582.698</strong></td>
             </tr>
         </tfoot>
     </table>
