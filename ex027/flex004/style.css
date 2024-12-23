@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container {
+    background-color: rgba(201, 131, 40, 0.952);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.item {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(139, 139, 39);
+    border-radius: 5px;
+    margin: 10px 10px;
+}
