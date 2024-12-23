@@ -6,11 +6,12 @@
 
 .container {
     background-color: rgba(201, 131, 40, 0.952);
+    height: 1200px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    align-content: stretch;
 }
 .item {
     border: 1px solid black;
