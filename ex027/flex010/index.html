@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            background-color: aquamarine;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .item{
+            background-color: rgb(255, 196, 196);
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi officiis ea, deleniti qui pariatur rem, quo odit accusantium veritatis nostrum nihil provident officia. Illo fugit sit praesentium repellendus, ab qui.</p>A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+       <!-- <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>-->
+
+    </div>
+</body>
+</html>
