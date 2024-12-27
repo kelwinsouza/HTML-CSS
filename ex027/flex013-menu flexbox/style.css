@@ -47,6 +47,7 @@ header > h1 {
 
 
 header > nav {
+    gap: 5px;
     border: 1px dotted black;
     padding: 2px;
 
