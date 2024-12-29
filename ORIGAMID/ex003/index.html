@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferença de em, rem e px</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: white;
+            background-color: darkblue;
+            display: inline-block;
+        }
+
+        p{
+            background: lightblue;
+        }
+        .px{
+            font-size: 24px;
+            padding: 16px 32px;
+        }
+        .rem{
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="px">Esse é um paragrafo</p>
+        <a class="px" href="/">Clique aqui</a>
+    </div>
+
+    <div>
+        <p class="rem">Esse é um paragrafo</p>
+        <a class="rem" href="/">Clique aqui</a>
+    </div>
+</body>
+</html>
