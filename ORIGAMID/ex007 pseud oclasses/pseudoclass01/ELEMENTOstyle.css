@@ -1,0 +1,41 @@
+h1 {
+    position: relative;
+}
+/*h1::before {  /*antes*//*
+    content: "";
+    display: block;
+    width: 60px;
+    height: 40px;
+    background-color: blueviolet;
+    position: absolute;
+}*/
+
+h1::after { /*depois*/
+    content: "";
+    display: block;
+    background-color: red;
+    width: 225px;
+    height: 4px;
+    position: absolute;
+    top: 20px;
+    z-index: -01;
+}
+ul{
+   list-style: none;
+}
+li {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    background: linear-gradient(red, #5f0d0d5d, red);
+    border: 1px solid #5f0d0d5d;
+    border-radius: 50%;
+
+}
