@@ -14,10 +14,11 @@ img {
   }
   
   /* abaixo de 600px */
-  @media (max-width: 600px) {
+  @media (max-width: 698px) {
     div {
       grid-template-columns: 1fr;
       gap: 1rem;
+      background-color: rgb(62, 52, 156);
     }
   }
   
@@ -25,11 +26,12 @@ img {
   @media (min-width: 1000px) {
     html {
       font-size: 150%;
+      background-color: brown;
     }
   }
   
   /* entre 800px e 900px */
-  @media (min-width: 800px) and (max-width: 900px) {
+  @media (min-width: 701px) and (max-width: 998px) {
     h1 {
       background: lightgreen;
     }

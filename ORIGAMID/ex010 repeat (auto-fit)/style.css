@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+}
+@media(max-width: 700px) {
+  .minmax img {
+    order: 2;
+  }
+}
+
+p {
+  font-size: 2rem;
+}
