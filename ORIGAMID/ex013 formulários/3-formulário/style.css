@@ -1,0 +1,25 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+textarea {
+    margin-top: 10px;
+    width: 10rem;
+    height: 100px; 
+    display: block;
+}
+body {
+    margin-left: 10px;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
