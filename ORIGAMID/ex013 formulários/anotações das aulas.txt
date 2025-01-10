@@ -1,0 +1,5 @@
+1- input
+2-slect
+3-textearea
+4-href
+5-media quary modo escuro e claro;
