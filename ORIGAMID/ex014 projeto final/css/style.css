@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    height: 1000px;
+    padding-bottom: 400px;
 }
 h1, 
 ul,
@@ -50,6 +50,8 @@ img {
     display: inline-block;
     padding: 16px 0px;
     font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 400;
 }
 
 .header-menu a:after{
@@ -69,6 +71,8 @@ img {
     .header a:after {
         display: none;  
     }
+
+
     .header-menu {
         padding: 20px;
         
@@ -99,6 +103,13 @@ img {
 .introducao-bg {
     background-color:#000000;
     color: #ffffff;
+    box-shadow: inset 0px -120px white;
+}
+
+.introducao img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 .introducao {
@@ -114,12 +125,14 @@ img {
 }
 .introducao-conteudo {
     align-self: end;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
 }
 .introducao h1 {
     margin-bottom: 32px;
     font-size: 64px;
     line-height: 1.125;
+    font-family: 'poppins';
+    font-weight: 600;
     
 }
 .introducao h1 span {
@@ -131,6 +144,8 @@ img {
     font-size: 24px;
     line-height: 1.5;
     color: #b2b2b2;
+    font-family: 'roboto';
+    font-weight: 400;
 }
 .introducao a {
     background-color: #FFBB00;
@@ -139,12 +154,49 @@ img {
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.33;
-    font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
     margin-top: 20px;
     box-shadow:  0 1px  2px rgba(0, 0, 0, 0.1);
+    font-family: 'poppins';
+    font-weight: 600;
 }
 .introducao a:hover {
     background: linear-gradient( #ffb60d, #e59317);
+}
+@media (max-width: 600px){
+    .introducao a {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1200px) {
+    .introducao-bg {
+        background: #111111;
+        padding-top: 40px;
+        box-shadow: inset 0px -60px #ffffff;
+    }
+    .introducao h1 {
+        font-size: 48px;
+    }
+    .introducao p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    .introducao h1 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .introducao-conteudo {
+        padding-bottom: 0px;
+    }
+    .introducao img {
+        height: 300px;
+        width: 100%;
+    }
 }
