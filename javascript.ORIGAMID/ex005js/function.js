@@ -1,6 +1,6 @@
 
 function mostraConsole(){
-    console.log('oiiiii')
+    console.log('oii')
 }
 addEventListener('click', mostraConsole);
 
@@ -56,7 +56,7 @@ function terceiraIdade2(idade){
         return false;
     }
 }
-console.log(terceiraIdade2('oiiiiiiii'))
+console.log(terceiraIdade2('oiii'))
 
 
 function visiTei(paisesVisitados) {
