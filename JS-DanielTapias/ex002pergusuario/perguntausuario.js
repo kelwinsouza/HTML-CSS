@@ -1,2 +1,2 @@
-const nome = prompt("Escreva seu nome")
-alert( "olá, " + nome + ", bem vindo")
+//const nomeDoUsuario = prompt("Escreva seu nome");
+//alert( "olá, " + nomeDoUsuario + ", bem vindo");
