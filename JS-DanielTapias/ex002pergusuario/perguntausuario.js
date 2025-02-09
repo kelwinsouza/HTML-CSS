@@ -2,11 +2,11 @@
 //alert( "olá, " + nomeDoUsuario + ", bem vindo");
 
 let numero1 = prompt('Digite um número')
-numero1= Number(numero1);
+numero1= parseFloat(numero1);
 
 
 let numero2 = prompt("Digite outro número") 
-numero2 = Number(numero2);
+numero2 = parseFloat(numero2);
 
 
 //let somaDosNumeros = parseFloat( numero1) + parseFloat(numero2);
