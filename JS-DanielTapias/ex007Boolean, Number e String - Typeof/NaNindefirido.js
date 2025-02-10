@@ -30,4 +30,6 @@ console.log(typeof 0)
 console.log(typeof "")
 console.log(typeof true)
 
-
+let str = "ba"
+str += parseInt(str)
+alert(str + "a")
