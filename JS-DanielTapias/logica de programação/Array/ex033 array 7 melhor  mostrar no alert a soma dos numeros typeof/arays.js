@@ -1,4 +1,4 @@
-const numero = [2, undefined, 31, null, 0, "qualquer texto", 12, 55, 17, 36,[], 85, 68]
+const numero = [2, 31, 0, 12, 55, 17, 36, 85, 68]
 
 let soma = 0
 
