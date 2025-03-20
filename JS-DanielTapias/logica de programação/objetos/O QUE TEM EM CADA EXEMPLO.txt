@@ -1,0 +1,3 @@
+(EX:038)  -  Mostre na tela os dados de um produto especifico que estão agrupados num unico objeto. os dados que devem ser mostrados são: nomes, preços e quantades em estoque.
+
+(EX:039)  -  mostrar a mensagem na tela" carro uni 2023 fez em média xxx Km/L de gasolina
