@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos
+     </title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+        table{
+            border-collapse: collapse ;
+        }
+        table , th , td {
+            border: 1px solid blue;
+
+        }
+        td,th{
+            padding: 10px;
+        }
+        td+td {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>  Dado um array contendo 3 obj cada um representando um produto, mostrar em uma tabela tag TABLE o nome o preço e a quantidade em estoque de cada produto
+
+<hr>
+        <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>preço</th>
+                        <th>Quantidade de estoque</th>
+                    </tr>
+                </thead>
+            <tbody id="tabelaProdutos">
+                <tr>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+            </tbody>
+        </table>
+  
+    <script src="objetos.js"></script>
+
+</body>
+</html>
+    
