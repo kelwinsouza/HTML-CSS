@@ -1,6 +1,6 @@
 const aluno = {
     nome: "Daniel Morales",
-    notas: [1,3,5,8]
+    notas: [9,4,8,8]
 }
 
 const output = document.getElementById("output")
@@ -9,7 +9,7 @@ output.innerHTML += "<h2>notas:" + aluno.notas + "</h2>"
 output.innerHTML += "<ul>"
 let soma = 0
 for(let i = 0; i < aluno.notas.length; i++){
-    soma = aluno.notas[i]
+    soma += aluno.notas[i]
     output.innerHTML += "<li>" + aluno.notas[i] +  "</li>"
 }
     let media = soma / aluno.notas.length
@@ -18,11 +18,13 @@ for(let i = 0; i < aluno.notas.length; i++){
 
     output.innerHTML += "<p> Media: " + media + "</p>" 
 
-    let aprovado = null
+    let aprovado = (media >= 7) ? "SIM" : "NÃO"
+
+    /*let aprovado = null
 
     if(media >=  7){
         aprovado = "sim"
     } else{
         aprovado = "não"
-    }
+    }*/
     output.innerHTML += "Aprivado? " + aprovado

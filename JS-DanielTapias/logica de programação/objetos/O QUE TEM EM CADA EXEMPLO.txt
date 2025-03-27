@@ -13,3 +13,5 @@
 (EX:044) ( TABELA DE PRODUTOS) Dado um array contendo 3 obj cada um representando um produto, mostrar em uma tabela tag TABLE o nome o preço e a quantidade em estoque de cada produto
 
 (EX:045) Mostre na tela: nome, lista com as notas , medias , aprovado/ reprovado
+
+(EX:046) Dado um array de alunos semelhantes á:::: mostre uma lista parecida com a lista ao lado
