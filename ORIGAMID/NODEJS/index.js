@@ -1,10 +1,6 @@
-const express = require('express')
-const app = express()
+const app = require('./src/services/app')
 const port = 3000
 
-app.get('/', (req, res) => {
-    res.send('Helo World')
-});
 
 app.listen(port, (err) =>{
     if(err){
